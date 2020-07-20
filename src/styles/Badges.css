@@ -1,0 +1,82 @@
+.Badges__hero {
+    width            : 100%;
+    padding          : 2rem 0;
+    background       : url('../images/stars.svg'), #1B1B25;
+    background-repeat: repeat;
+    margin-bottom    : 1rem;
+}
+
+.Badges__hero>.Badges__container {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+.Badges__container {
+    width    : 100%;
+    max-width: 580px;
+    margin   : 0 auto;
+    padding  : 0 1rem;
+}
+
+.Badges_conf-logo {
+    margin-bottom: 2rem;
+}
+
+.Badges__buttons {
+    display        : flex;
+    justify-content: flex-end;
+    margin-bottom  : 1rem;
+}
+
+.Badge-list {
+    width        : 100%;
+    padding      : 20px;
+    display      : flex;
+    align-items  : center;
+    border       : 1px solid #1f1f1f20;
+    margin       : 20px 0;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 0px 4px 5px 0px #1f1f1f20;
+    -moz-box-shadow   : 0px 4px 5px 0px #1f1f1f20;
+    box-shadow        : 0px 4px 5px 0px #1f1f1f20;
+
+    color: #2f3535;
+}
+
+.Badge-list > a {
+    display: flex;
+    align-items  : center;
+}
+
+.Badge-list__avatar {
+    border-radius: 50%;
+}
+
+.Badge-list__info {
+    padding-left: 20px;
+}
+
+.Badge-list__info p {
+    margin: 0;
+}
+
+.Badge-list__info--name {
+    font-size: 18px;
+}
+
+.Badge-list__info--twitter {
+    color          : #2f3535;
+    text-decoration: none;
+}
+
+.Badge-list__info--twitter>img {
+    height: 25px;
+    margin-right: 5px;
+}
+
+.Badge-list__info--job {
+    font-size : 12px;
+    font-style: italic;
+}
